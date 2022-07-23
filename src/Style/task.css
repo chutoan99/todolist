@@ -1,0 +1,63 @@
+table{
+    border: 1px solid #ccc;
+    margin-top: 20px
+}
+table th,
+table td{
+    border: 1px solid #ccc;
+}
+td label{
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 3px;
+}
+.status-processing{
+    background-color: var(--state--processing--);
+}
+.status-success{
+    background-color: var(--states--success--);
+}
+.status-failure{
+    background-color: var(--states--failure--);
+}
+.icon-action button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.icon-action button:nth-child(1):hover{
+    background-color:var(--button-save--);
+    border-radius: 4px;
+}
+.icon-action button:nth-child(2):hover{
+    background-color:var(--button-cancel--);
+    border-radius: 4px;
+}
+
+.icon-action button:nth-child(2){
+    margin-left: 10px;
+}
+.icon-action button:nth-child(1){
+    padding: 3px;
+}
+.icon-action-edit i{
+    font-size: 30px;
+}
+.icon-action-remove i::before {
+    font-size: 35px;
+}
+.icon-action-edit i{
+    color: var(--button-save--);
+}
+.icon-action-edit i:hover{
+    color: white;
+}
+.icon-action-remove i{
+    color: var(--button-cancel--);
+}
+.icon-action-remove i:hover{
+    color: white;
+}

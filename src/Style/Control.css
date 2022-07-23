@@ -1,0 +1,23 @@
+.btn label,
+.btn i{
+    cursor: pointer;
+}
+.btn-search{
+    width: 170px;
+    margin-left: 10px;
+}
+.btn-add{
+    margin-bottom: 20px;
+}
+.header_panel-icon{
+    font-size: 20px;
+
+}
+.content{
+    display: flex;
+}
+input{
+    width: 100%;
+    padding-left: 5px;
+    border-radius: 5px;
+}

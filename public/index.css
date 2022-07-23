@@ -1,0 +1,27 @@
+table.table.table-striped.table-inverse.table-responsive {
+    border: 1px solid #ccc;
+    margin-top: 30px;
+}
+
+.heading {
+    text-align: center;
+    margin: 30px;
+}
+
+.heading h1 {
+    font-size: 40px;
+}
+
+.i {
+    color: black;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.body-button .button i {
+    color: black;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+}

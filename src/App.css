@@ -1,0 +1,19 @@
+html,body{
+  height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --button-save--: rgb(255, 208, 0);
+  --button-cancel--: rgba(182, 15, 15, 0.795);
+  --states--success--: rgb(9, 70, 9);
+  --state--processing--: rgb(15, 15, 126);
+  --states--failure--: rgb(31, 25, 25);
+}
+.hidden{
+  display: none;
+}
+.show{
+  display: block;
+}
